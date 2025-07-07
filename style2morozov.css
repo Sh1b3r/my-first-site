@@ -1,0 +1,474 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.main-nav {
+    flex: 1;
+     margin: 0 20px;
+}
+
+.main-nav ul {  
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    margin: 0;
+    text-decoration: none;
+}
+.main-nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+            
+}
+.header-button {
+    background-color: rgb(0, 0, 0);
+    height: 35px;
+    color: rgb(0, 10, 143);
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0 15px;
+    border-radius: 5px;
+}
+
+ header {
+    background-color: rgb(46, 46, 46);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.search-box button {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ninjago {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.ninjago h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+.ninjago h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    margin: 15px 0;
+}
+
+.ninjago strong {
+    display: block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.ninja {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.kai, .jay, .zane, .lloyd, .cole, .nya {
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.kai {
+    color: rgb(177, 0, 0);
+    background-color: rgba(177, 0, 0, 0.1);
+    border: 3px solid rgb(126, 0, 0);
+    position: static;
+}
+
+.jay {
+    color: rgb(35, 10, 126);
+    background-color: rgba(35, 10, 126, 0.1);
+    border: 3px solid rgb(11, 9, 87);
+}
+
+.zane {
+    color: rgb(90, 79, 79);
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 3px solid rgb(90, 79, 79);
+}
+
+.lloyd {
+    color: rgb(19, 143, 40);
+    background-color: rgba(19, 143, 40, 0.1);
+    border: 3px solid rgb(24, 109, 35);
+    position: relative;
+}
+
+.cole {
+    color: rgb(255, 255, 255);
+    background-color: rgba(70, 30, 30, 0.1);
+    border: 3px solid rgb(70, 30, 30);
+}
+
+.nya {
+    color: rgb(19, 91, 100);
+    background-color: rgba(19, 91, 100, 0.1);
+    border: 3px solid rgb(25, 81, 145);
+}
+
+.ninja img {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.ninja p {
+    font-weight: bold;
+    margin: 15px 0;
+    font-size: 1.1em;
+}
+        
+.card {
+    background-color: rgb(46, 46, 46);
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    border: 3px solid rgb(0, 0, 0); 
+    border-radius: 10px; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px; /* додає відступи між усіма дочірніми елементами */
+}
+
+.card img {
+    max-width: 300px;
+    max-height:300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.logo1 img {
+    width: 300px;
+    height: 300px;
+}
+
+.logo1 {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+   
+}
+
+.buy-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.card button{
+    background-color: rgb(14, 151, 20);
+    height: 35px;
+    width:120px ;
+    color: rgb(43, 10, 58);
+    border: 1px solid rgb(36, 70, 26);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+}
+
+.card-text {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: start;
+    }
+.product {      
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: auto;
+    margin: 0;
+    order: 1;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.products-text  {
+    font-family: 'Arial', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.catalog-header {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sets {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 5px solid rgb(20, 20, 20);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.sets img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;  
+}
+
+.set-button {
+    background-color: rgb(0, 0, 0);
+    height: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.set-text {
+    font-family: 'Arial', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+.mini-figures {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    border: 5px solid rgb(20, 20, 20);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.mini-figures img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+}
+
+.mini-figure-image {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.mini-figure-image img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;  
+}
+.mini-figure-button {
+    background-color: rgb(0, 0, 0);
+    height: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mini-figure-text {
+    font-family: 'Arial', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(46, 46, 46);
+    padding: 20px 0;
+    margin-top: 50px;
+ }
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-container ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-button {
+    background-color: rgb(0, 0, 0);
+    height: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0 15px;
+    border-radius: 5px;
+}
+
+        @media (max-width: 768px) {
+    .container {
+    flex-direction: column;
+    gap: 15px;
+}
+            
+.main-nav {
+    margin: 0;
+    width: 100%;
+}
+            
+.main-nav ul {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+            
+.ninja {
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+            
+.footer-container ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+}
+.NEKTARYNKI {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 1200px;
+    height: 1200px;
+}
